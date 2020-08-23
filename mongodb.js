@@ -12,8 +12,6 @@ MongoClient.connect(connnectionURL, { useNewUrlParser: true, useUnifiedTopology:
 
   const db = client.db(databaseName);
 
-  // Use functions from create.js, read.js, update.js, delete.js here.
-
-
+  // Use operations from create.js, read.js, update.js, delete.js here.
 
 });
